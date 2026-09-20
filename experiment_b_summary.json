@@ -1,0 +1,95 @@
+{
+  "uci_train_shape": [
+    8844,
+    6
+  ],
+  "uci_test_shape": [
+    2211,
+    6
+  ],
+  "phiusiil_shape": [
+    235795,
+    6
+  ],
+  "common_features": [
+    "having_IP_Address",
+    "URL_Length",
+    "having_At_Symbol",
+    "Prefix_Suffix",
+    "having_Sub_Domain",
+    "port"
+  ],
+  "best_model_on_phiusiil": "SVM",
+  "results": [
+    {
+      "Model": "Logistic Regression",
+      "UCI_Accuracy": 0.7146,
+      "UCI_Precision": 0.6899,
+      "UCI_Recall": 0.6469,
+      "UCI_F1-score": 0.6677,
+      "UCI_ROC-AUC": 0.7796,
+      "PhiUSIIL_Accuracy": 0.5991,
+      "PhiUSIIL_Precision": 0.9843,
+      "PhiUSIIL_Recall": 0.0647,
+      "PhiUSIIL_F1-score": 0.1213,
+      "PhiUSIIL_ROC-AUC": 0.7568,
+      "F1_change": -0.5464
+    },
+    {
+      "Model": "Decision Tree",
+      "UCI_Accuracy": 0.7304,
+      "UCI_Precision": 0.6619,
+      "UCI_Recall": 0.801,
+      "UCI_F1-score": 0.7248,
+      "UCI_ROC-AUC": 0.8057,
+      "PhiUSIIL_Accuracy": 0.6571,
+      "PhiUSIIL_Precision": 0.9498,
+      "PhiUSIIL_Recall": 0.2101,
+      "PhiUSIIL_F1-score": 0.344,
+      "PhiUSIIL_ROC-AUC": 0.6238,
+      "F1_change": -0.3808
+    },
+    {
+      "Model": "Random Forest",
+      "UCI_Accuracy": 0.7313,
+      "UCI_Precision": 0.6625,
+      "UCI_Recall": 0.8031,
+      "UCI_F1-score": 0.726,
+      "UCI_ROC-AUC": 0.8057,
+      "PhiUSIIL_Accuracy": 0.6571,
+      "PhiUSIIL_Precision": 0.9498,
+      "PhiUSIIL_Recall": 0.2101,
+      "PhiUSIIL_F1-score": 0.344,
+      "PhiUSIIL_ROC-AUC": 0.6401,
+      "F1_change": -0.382
+    },
+    {
+      "Model": "SVM",
+      "UCI_Accuracy": 0.7309,
+      "UCI_Precision": 0.6554,
+      "UCI_Recall": 0.8286,
+      "UCI_F1-score": 0.7319,
+      "UCI_ROC-AUC": 0.768,
+      "PhiUSIIL_Accuracy": 0.6689,
+      "PhiUSIIL_Precision": 0.9517,
+      "PhiUSIIL_Recall": 0.2387,
+      "PhiUSIIL_F1-score": 0.3817,
+      "PhiUSIIL_ROC-AUC": 0.7233,
+      "F1_change": -0.3502
+    },
+    {
+      "Model": "XGBoost",
+      "UCI_Accuracy": 0.7313,
+      "UCI_Precision": 0.6625,
+      "UCI_Recall": 0.8031,
+      "UCI_F1-score": 0.726,
+      "UCI_ROC-AUC": 0.8058,
+      "PhiUSIIL_Accuracy": 0.6571,
+      "PhiUSIIL_Precision": 0.9498,
+      "PhiUSIIL_Recall": 0.2101,
+      "PhiUSIIL_F1-score": 0.344,
+      "PhiUSIIL_ROC-AUC": 0.724,
+      "F1_change": -0.382
+    }
+  ]
+}

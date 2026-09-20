@@ -8,6 +8,8 @@ joblib
 streamlit
 requests
 beautifulsoup4
-python-whois
-dnspython
 tldextract
+# rapidfuzz: optional but recommended -- feature_extraction.py uses it
+# automatically if installed, for much faster URLSimilarityIndex lookups.
+# Falls back to the stdlib difflib if not present.
+rapidfuzz
