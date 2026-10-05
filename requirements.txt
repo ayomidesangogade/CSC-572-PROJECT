@@ -14,3 +14,4 @@ tldextract
 # Falls back to the stdlib difflib if not present.
 rapidfuzz
 whois
+dnspython
