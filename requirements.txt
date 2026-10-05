@@ -13,3 +13,4 @@ tldextract
 # automatically if installed, for much faster URLSimilarityIndex lookups.
 # Falls back to the stdlib difflib if not present.
 rapidfuzz
+whois
